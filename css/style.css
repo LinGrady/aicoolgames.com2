@@ -752,6 +752,56 @@ footer {
     color: var(--text-light);
 }
 
+/* FAQ Page Styles */
+.faq-item {
+    background: var(--bg-white);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow);
+    border-left: 4px solid var(--primary-color);
+}
+
+.faq-item h3 {
+    font-size: 1.35rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.faq-item p {
+    color: var(--text-dark);
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.faq-item ul,
+.faq-item ol {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding-left: 2rem;
+}
+
+.faq-item li {
+    margin-bottom: 0.75rem;
+    line-height: 1.7;
+}
+
+.faq-item strong {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.faq-item a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.faq-item a:hover {
+    text-decoration: underline;
+}
+
 .author-info p {
     color: var(--text-light);
     font-size: 0.95rem;
