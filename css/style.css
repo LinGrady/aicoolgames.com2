@@ -1,4 +1,4 @@
-/* TechPulse - Modern Tech News Website Styles */
+/* Practical Tech Guide - Site Styles */
 
 :root {
     --primary-color: #2563eb;
@@ -26,7 +26,6 @@ body {
     background-color: var(--bg-light);
 }
 
-/* Header & Navigation */
 header {
     background-color: var(--bg-white);
     box-shadow: var(--shadow);
@@ -81,14 +80,12 @@ nav {
     cursor: pointer;
 }
 
-/* Main Content */
 main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem 1rem;
 }
 
-/* Hero Section */
 .hero {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     color: white;
@@ -136,7 +133,6 @@ main {
     display: block;
 }
 
-/* Trending Topics */
 .trending-topics {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -190,7 +186,6 @@ main {
     text-decoration: underline;
 }
 
-/* Tools & Resources */
 .tools-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -243,7 +238,6 @@ main {
     text-decoration: underline;
 }
 
-/* Newsletter Section */
 .newsletter-section {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     color: white;
@@ -256,6 +250,21 @@ main {
 .newsletter-content h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+}
+
+.eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.85rem;
+    font-weight: 700;
+    opacity: 0.85;
+    margin-bottom: 0.75rem;
+}
+
+.topic-note {
+    color: var(--text-light);
+    max-width: 760px;
+    margin-bottom: 1.5rem;
 }
 
 .newsletter-content > p {

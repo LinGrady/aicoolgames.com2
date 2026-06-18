@@ -3,65 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 - Page Not Found | TechPulse</title>
-    <meta name="description" content="The page you are looking for could not be found. Return to TechPulse homepage for the latest technology news.">
-    
-    <!-- Stylesheet -->
+    <title>404 - Page Not Found | Practical Tech Guide</title>
+    <meta name="description" content="The page could not be found. Visit Practical Tech Guide for buying guides, author information, and contact details.">
     <link rel="stylesheet" href="css/style.css">
-    
     <style>
-        .error-container {
-            text-align: center;
-            padding: 4rem 2rem;
-        }
-        .error-code {
-            font-size: 6rem;
-            font-weight: 700;
-            color: var(--primary-color);
-            margin-bottom: 1rem;
-        }
-        .error-message {
-            font-size: 1.5rem;
-            color: var(--text-dark);
-            margin-bottom: 2rem;
-        }
-        .error-description {
-            color: var(--text-light);
-            margin-bottom: 2rem;
-            max-width: 500px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .home-button {
-            display: inline-block;
-            padding: 1rem 2rem;
-            background: var(--primary-color);
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: 500;
-            transition: background 0.3s;
-        }
-        .home-button:hover {
-            background: var(--secondary-color);
-        }
+        .error-container { text-align: center; padding: 4rem 2rem; }
+        .error-code { font-size: 6rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem; }
+        .error-message { font-size: 1.5rem; color: var(--text-dark); margin-bottom: 2rem; }
+        .error-description { color: var(--text-light); margin-bottom: 2rem; max-width: 560px; margin-left: auto; margin-right: auto; }
+        .error-links { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+        .home-button { display: inline-block; padding: 0.85rem 1.25rem; background: var(--primary-color); color: white; text-decoration: none; border-radius: 8px; font-weight: 500; }
     </style>
-    
-    <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8306112973766890"
-     crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8306112973766890" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
-            <a href="index.html" class="logo">Tech<span>Pulse</span></a>
+            <a href="index.html" class="logo">Practical<span>Tech</span></a>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
+                <li><a href="categories.html">Buying Guides</a></li>
+                <li><a href="authors.html">Author</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="editorial-policy.html">Editorial Policy</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="faq.html">FAQ</a></li>
             </ul>
-            <button class="mobile-menu" aria-label="Menu">â˜?/button>
+            <button class="mobile-menu" aria-label="Menu">â˜°</button>
         </nav>
     </header>
 
@@ -70,8 +37,14 @@
             <div class="error-container">
                 <div class="error-code">404</div>
                 <h1 class="error-message">Page Not Found</h1>
-                <p class="error-description">Oops! The page you're looking for seems to have gone missing. It might have been moved, deleted, or you may have typed the URL incorrectly.</p>
-                <a href="index.html" class="home-button">Return to Homepage</a>
+                <p class="error-description">The page may have moved or the address may be incorrect. These links can help you get back to the main site.</p>
+                <div class="error-links">
+                    <a href="index.html" class="home-button">Home</a>
+                    <a href="categories.html" class="home-button">Buying Guides</a>
+                    <a href="authors.html" class="home-button">Author</a>
+                    <a href="editorial-policy.html" class="home-button">Editorial Policy</a>
+                    <a href="contact.html" class="home-button">Contact</a>
+                </div>
             </div>
         </div>
     </main>
@@ -79,21 +52,23 @@
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h3>About TechPulse</h3>
-                <p>TechPulse is your trusted source for technology news, reviews, and insights. We cover the latest innovations shaping our digital world.</p>
+                <h3>About Practical Tech Guide</h3>
+                <p>Practical Tech Guide publishes clear, independent advice for choosing products, comparing tools, and understanding everyday technology.</p>
             </div>
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="categories.html">Buying Guides</a></li>
+                    <li><a href="authors.html">Author</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h3>Legal</h3>
                 <ul>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
                     <li><a href="terms-of-service.html">Terms of Service</a></li>
                     <li><a href="cookie-policy.html">Cookie Policy</a></li>
                     <li><a href="disclaimer.html">Disclaimer</a></li>
@@ -101,17 +76,8 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 TechPulse. All rights reserved.</p>
+            <p>&copy; 2026 Practical Tech Guide. All rights reserved.</p>
         </div>
     </footer>
-
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1Q8L9M9P3D"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-1Q8L9M9P3D');
-    </script>
 </body>
 </html>
